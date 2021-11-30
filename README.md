@@ -53,7 +53,3 @@ Iteramos las veces indicadas, haciendo la funcion witness(ZZ, ZZ).
 Generamos un numero el cual posea la cantidad de bits indicada - 1.
 Y hacemos la operación binaria |, con un numero cuyos bits más y menos significativos sean 1.
 De esta manera el numero primo sera de la cantidad de bits indicada y sera impar.
-
-## Nota
-
-Si bien el trabajo esta terminado, el algoritmo de generación de claves esta modificado para p = 3 y q = 11. Se debe de descomentar una linea en el rsa.cpp para generar primos en base a un número de bits y comentar la que asigna p = 3 y q = 11.
